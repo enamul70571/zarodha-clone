@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+p {
+  display: flex;
+  color: solid black;
+
+  margin-top: 10px;
+}
+.button {
+  color: white;
+  background: #387ed1;
+  font-size: 20px;
+  margin: 25px 0px 0px;
+  padding: 10px 10px;
+  border: none;
+  width: 160px;
+}
+.button:hover {
+  background: black;
+}
+.main {
+  display: flex;
+  padding: 10px 50px;
+}
+
+.main .left {
+  width: 50%;
+  margin-top: 150px;
+  padding-left: 50px;
+}
+
+.list {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.main .right {
+  width: 50%;
+  margin-top: 150px;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 100px;
+  background: white;
+  align-items: center;
+  color: darkgrey;
+}
+.navbar-section {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+}
+.navbar-section li {
+  margin-right: 25px;
+}
+.navbar-section li:hover {
+  cursor: pointer;
+  color: blue;
+}
+.Header {
+  color: blue;
+  font-size: 30px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+.pricing {
+  font-size: 20px;
+}
+
+.borderbox div {
+  height: 150px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.borderbox div h3 {
+  font-size: 45px;
+}
+
+.borderbox div span {
+  font-size: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.price-container {
+  margin-top: 50px;
+  padding: 2rem 5rem;
+}
+
+.price-container div {
+  width: 50%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.market {
+  margin-top: 50px;
+  padding: 2rem 6rem;
+}
+.market div {
+  width: 50%;
+  padding: 20px 30px;
+  justify-content: center;
+  font-size: 20px;
+}
+.market-pic {
+  height: 18rem;
+}
+.open {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding: 20px 30px;
+}
+
+.img {
+  height: 20px;
+}
+
+footer {
+  background: lightgray;
+  margin-top: 7rem;
+  padding: 2rem 5rem;
+  justify-content: space-between;
+}
+
+footer div {
+  padding: 10px;
+}
